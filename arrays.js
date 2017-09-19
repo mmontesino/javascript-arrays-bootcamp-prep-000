@@ -41,5 +41,5 @@ function destructivelyRemoveElementFromEndOfArray() {
 }
 function removeElementFromEndOfArray() {
   var iceCreams = ["chocolate", "vanilla", "raspberry"]
-  iceCreams.slice(0, iceCreams.length - 1)
+  iceCreams.slice( - 1)
 }
