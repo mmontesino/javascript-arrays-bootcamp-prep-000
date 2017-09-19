@@ -29,3 +29,14 @@ function destroctivelyRemoveElementFromBeginningOfArray() {
   techCompanies.shift()
   techCompanies
 }
+function removeElementFromBeginningOfArray() {
+  var cats = ["Milo", "Garfield", "Otis"]
+  cats.slice(1)
+  return cats
+}
+function destructivelyRemoveElementFromEndOfArray() {
+  var iceCreams = ["chocolate", "vanilla", "raspberry"]
+  iceCreams.pop()
+  return iceCreams
+}
+
