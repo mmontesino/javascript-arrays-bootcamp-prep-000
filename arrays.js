@@ -18,7 +18,7 @@ function addElementToEndOfArray() {
 }
 function destructivelyAddElementToEndOfArray() {
   var games = ['Chess', 'Tic Tac Toe']
-  games.push('Checkers')
+  games.push('Checkers');
 }
 function accessElementInArray() {
   var entrepreneurs = ['Elon Musk', 'Steve Jobs', 'Scott Belsky']
