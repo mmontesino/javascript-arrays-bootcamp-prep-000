@@ -5,8 +5,8 @@ var chocolateBars = [
   'skittles'
 ]
 function addElementToBeginningOfArray () {
-  var array = [1]
-  array.unshift('foo')
+  var cars = ['Toyota', 'Ford']
+  cars.unshift('Audi')
 }
 function destructivelyAddElementToBeginningOfArray() {
   var cars = ['Toyota', 'Ford']
@@ -41,5 +41,5 @@ function destructivelyRemoveElementFromEndOfArray() {
 }
 function removeElementFromEndOfArray() {
   var iceCreams = ["chocolate", "vanilla", "raspberry"]
-  iceCreams.slice( - 1)
+  iceCreams.slice(0, iceCreams.length - 1)
 }
